@@ -22,7 +22,7 @@ import numpy as np
 import plotly.express as px
 
 
-df = pd.read_csv('githealthcare-dataset-stroke-data.csv')
+df = pd.read_csv('healthcare-dataset-stroke-data.csv')
 st.dataframe(df)
 
 st.write('*2. Visualisasi data - jumlah pasien berdasarkan usia*')
